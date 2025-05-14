@@ -1,9 +1,10 @@
 # Overleaf Cookie Obtainer
 
 A Python script to programmatically obtain Overleaf session cookies, with optional automated CAPTCHA solving support via NopeCHA.
-It will output a string of the form `overleaf_session2=<cookie>` for usage in Overleaf Workshop VSCode Extension.
+It will output a string of the form `overleaf_session2=<cookie>` for usage in [Overleaf Workshop VSCode Extension](https://github.com/iamhyc/Overleaf-Workshop).
 
 ## Setup
+I suggest using [uv](https://github.com/astral-sh/uv)
 1. Install dependencies:
 ```bash
 uv sync
